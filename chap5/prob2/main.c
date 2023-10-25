@@ -14,6 +14,6 @@ perror(argv[1]);
 while( (nread = read(fd, buffer, BUFSIZE)) > 0)
 total += nread;
 close(fd);
-printf ("%s File size : %ld Byte \n", argv[1], total);
+printf ("%s File size 입니다. : %ld Byte \n", argv[1], total);
 exit(0);
 }
